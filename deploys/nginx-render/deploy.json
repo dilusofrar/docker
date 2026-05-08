@@ -1,0 +1,23 @@
+{
+  "image": "nginx",
+  "tag": "latest",
+  "digest": null,
+  "target": "render",
+  "serviceName": "nginx",
+  "serviceType": "web",
+  "ports": [
+    "8080:80"
+  ],
+  "env": [],
+  "volumes": [
+    "./html:/usr/share/nginx/html:ro"
+  ],
+  "command": null,
+  "generatedAt": "2026-05-08T01:06:44.054Z",
+  "files": [
+    "render.yaml",
+    ".env.example",
+    "README.md",
+    "deploy.json"
+  ]
+}
