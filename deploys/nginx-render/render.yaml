@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: nginx
+    runtime: image
+    image:
+      url: docker.io/nginx:latest
+    plan: starter
+    healthCheckPath: /
